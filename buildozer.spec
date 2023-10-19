@@ -1,14 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Lottie Demo
+title = nsat      
 
 # (str) Package name
-package.name = lottiedemo
+package.name = nsat
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = dev.tshirtman
-
+package.domain = test.dev
 # (str) Source code where the main.py live
 source.dir = src/
 
@@ -36,7 +35,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3,kivy,socket,threading
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -65,7 +64,7 @@ orientation = portrait
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 1.1.1
 
 #
 # Android specific
